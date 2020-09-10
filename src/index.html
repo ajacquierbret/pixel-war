@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<title>Pixel War</title>
+</head>
+<body style="background-color: black">
+    <header id="header">
+      <div class="row bg-dark text-white justify-content-center py-5">
+        <div class="col-2 text-center">
+          <h3 id="player"></h3>
+        </div>
+        <div class="col-2 text-center">
+          <div class="mb-3" id="weapon-skin"></div>
+          <h4 id="weapon-name"></h4>
+          <h6 id="weapon-characteristics"></h6>
+        </div>
+        <div class="col-2 text-center">
+          <div class="mb-3" id="class-skin"></div>
+          <h4 id="class-name"></h4>
+        </div>
+        <div class="col-2 text-center">
+          <img class="mb-3" width="32" src="../assets/img/menu/heart.png">
+          <h4 id="pv"></h4>
+        </div>
+        <div class="col-4" id="actions">
+          <div class="row justify-content-center">
+            <div class="col-4 text-center">
+              <button class="btn btn-danger btn-block" id="end-turn">PASSER</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div style="position: relative;">
+        <canvas id="canvas-map"
+          style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id="canvas-possible-moves"
+          style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+        <canvas id="canvas-possible-attacks"
+          style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+        <canvas id="canvas-weapons"
+          style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+        <canvas id="canvas-player-1"
+          style="position: absolute; left: 0; top: 0; z-index: 4;"></canvas>
+        <canvas id="canvas-player-2"
+          style="position: absolute; left: 0; top: 0; z-index: 5;"></canvas>
+        <canvas id="canvas-animations"
+          style="position: absolute; left: 0; top: 0; z-index: 6;"></canvas>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@import 'variables.scss';
+@font-face {
+    font-family: 'Pixel';
+    src: url('../../assets/fonts/manaspc.ttf');
+}
+
+* {
+    font-family: 'Pixel' !important;
+    text-transform: uppercase;
+}
+
+.slot {
+    border: solid 0.1px map-get($colors, grid);
+}
+
+.highlighted-Player-1 {
+    border: solid 1px white;
+}
+
+.highlighted-Player-2 {
+    border: solid 1px blue;
+}

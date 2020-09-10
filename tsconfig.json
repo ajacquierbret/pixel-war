@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "CommonJS",
+      "downlevelIteration": true,
+      "sourceMap": true,
+      "outDir": "./dist/",
+      "allowJs": true,
+      "declaration": true,
+    },
+    "files": ["./src/index.ts", "import-png.d.ts"],
+    "compileOnSave": true,
+  }
